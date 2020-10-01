@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">MSO</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_me">MSO</string>
+    <string name="title_activity_ucak">Uçak</string>
+    <string name="title_activity_hotel">Otel</string>
+    <string name="title_activity_arac">Araç</string>
+    <string name="title_activity_sepet">Sepet</string>
+
+    <array name="Konum">
+
+        <item>Havalimanı Seçiniz</item>
+        <item>ISTANBUL</item>
+        <item>ANKARA</item>
+        <item>LONDRA</item>
+        <item>PARIS</item>
+        <item>AMSTERDAM</item>
+        <item>BERLIN</item>
+        <item>KÖLN</item>
+        <item>SIDNEY</item>
+        <item>NEW YORK</item>
+
+    </array>
+
+    <array name="AracKonum">
+
+
+        <item>İSTANBUL AVRUPA</item>
+        <item>İSTANBUL ANADOLU</item>
+        <item>ANKARA</item>
+        <item>İZMİR</item>
+        <item>ANTALYA</item>
+        <item>BURSA</item>
+    </array>
+
+    <array name="OtelKonum">
+
+        <item>İSTANBUL</item>
+        <item>ANKARA</item>
+        <item>LONDRA</item>
+        <item>PARİS</item>
+        <item>AMSTERDAM</item>
+        <item>BERLİN</item>
+        <item>KÖLN</item>
+        <item>SIDNEY</item>
+        <item>NEW YORK</item>
+        <item>LOS ANGELES</item>
+    </array>
+
+    <array name="KartTipi">
+
+        <item>VISA</item>
+        <item>MASTERCARD</item>
+        <item>AMEX</item>
+
+    </array>
+
+    <array name="Person">
+
+        <item>1 Yetişkin</item>
+        <item>2 Yetişkin</item>
+        <item>3 Yetişkin</item>
+
+    </array>
+
+    <array name="AracMarka">
+
+
+        <item>Mercedes Benz</item>
+        <item>Bmw</item>
+        <item>Audi</item>
+    </array>
+    <array name="AracSegment">
+
+
+        <item>C Segment</item>
+        <item>D Segment</item>
+        <item>D1 Segment</item>
+
+    </array>
+
+
+    <string name="title_activity_ucak_detay">UcakDetay</string>
+    <string name="title_activity_ucak__detay1">Ucak_Detay1</string>
+    <string name="title_activity_ucak_details">UcakDetails</string>
+    <string name="title_activity_kredi_kart">KrediKart</string>
+    <string name="a">Kart Numarası :</string>
+    <string name="title_activity_bos">bos</string>
+    <string name="title_activity_arac_sorgula">AracSorgula</string>
+
+
+</resources>

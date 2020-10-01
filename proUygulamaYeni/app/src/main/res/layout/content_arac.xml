@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_marginTop="50dp"
+    tools:context="com.example.tarikbozyak.prouygulama.KrediKart"
+    android:background="@drawable/back12">
+
+
+<LinearLayout
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:id="@+id/linearLayout"
+
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Teslim Alma Yeri :"
+            android:id="@+id/AractextView"
+            android:textAlignment="textEnd"
+            android:textSize="16sp"
+            android:layout_marginTop="14dp"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="6dp"
+            android:id="@+id/spinnerTeslimAlma"
+            android:entries="@array/AracKonum"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Teslim Etme Yeri:"
+            android:id="@+id/AractextView2"
+            android:textAlignment="textEnd"
+            android:textSize="16sp"
+            android:layout_marginTop="14dp"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="6dp"
+            android:id="@+id/spinnerTeslimEtme"
+            android:entries="@array/AracKonum"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Teslim Alma Tarihi :"
+            android:id="@+id/AractextView3"
+            android:textAlignment="textEnd"
+            android:textSize="16sp"
+            android:layout_marginTop="3dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/AraceditText3"
+            android:layout_marginTop="3dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Teslim Etme Tarihi :"
+            android:id="@+id/AractextView4"
+            android:textAlignment="textEnd"
+            android:textSize="16sp"
+            android:layout_marginTop="3dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/AraceditTextGidisTarihi"
+
+            android:layout_marginTop="3dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Arac Marka :"
+            android:textAlignment="textEnd"
+            android:id="@+id/AractextView5"
+            android:layout_marginTop="8dp"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/spinnerAracMarka"
+            android:entries="@array/AracMarka"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Arac Segment :"
+            android:textAlignment="textEnd"
+            android:id="@+id/AractextView6"
+            android:layout_marginTop="14dp"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="6dp"
+            android:id="@+id/spinnerAracSegment"
+            android:entries="@array/AracSegment"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ONAYLA"
+        android:id="@+id/AracbuttonArama"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/butonanasayfa"
+        />
+
+    </RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tarikbozyak.prouygulama" >
+
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashEkran"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".Kullanici"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.KX" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu"
+            android:label="@string/title_activity_me"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Ucak"
+            android:label="@string/title_activity_ucak"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".OtelDetay"
+            android:label="Otel"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+             >
+        </activity>
+        <activity
+            android:name=".AracBir"
+            android:label="@string/title_activity_arac"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Sepet"
+            android:label="@string/title_activity_sepet"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".UcakDetay"
+            android:label="UcakDetails"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".KrediKart"
+            android:label="@string/title_activity_kredi_kart" >
+        </activity>
+        <activity
+            android:name=".AracSorgula"
+            android:label="@string/title_activity_arac_sorgula" >
+        </activity>
+        <activity android:name=".OtelActivity" >
+        </activity>
+        <activity android:name=".OtelListe" >
+        </activity>
+        <activity android:name=".UcusListe" >
+        </activity>
+        <activity android:name=".UcusOnay" >
+        </activity>
+        <activity android:name=".Bilet" >
+        </activity>
+        <activity android:name=".UcusListeDonus" >
+        </activity>
+        <activity android:name=".UcusOnayDonus" >
+        </activity>
+
+    </application>
+
+</manifest>

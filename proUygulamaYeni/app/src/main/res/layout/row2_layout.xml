@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageViewLogo"
+
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="200dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="17.30"
+                        android:paddingTop="10sp"
+                        android:paddingLeft="15sp"
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/textSaat"
+                        android:textStyle="bold"
+
+
+                        />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="TK-9200"
+                        android:paddingTop="13sp"
+                        android:paddingLeft="20sp"
+                        android:id="@+id/textSefer"
+                        android:textStyle="italic"
+                        android:textSize="14sp"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="18dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Istanbul"
+                        android:textSize="14sp"
+                        android:id="@+id/textNerden"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="-->"
+                        android:id="@+id/textView3" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Ankara"
+                        android:textSize="14sp"
+                        android:id="@+id/textNereye"
+
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="280"
+
+                    android:textStyle="bold"
+                    android:id="@+id/textFiyat"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:textColor="#010101" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

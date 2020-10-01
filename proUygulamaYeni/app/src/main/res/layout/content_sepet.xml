@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Sepet"
+    tools:showIn="@layout/activity_sepet"
+
+    android:background="#0b5d7b">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearUcak"
+            >
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#4FCDFA"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardElevation="5dp"
+                android:id="@+id/cardViewUcak"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+
+                    >
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="Uçak Rezervasyonunuz"
+                        android:textColor="@android:color/background_light"
+                        android:id="@+id/textView9"
+                        android:textStyle="italic"
+                        />
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic"
+                        android:text="Gidiş Biletiniz"
+                        android:id="@+id/textVi1"
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:textAlignment="textEnd"
+                            android:layout_height="wrap_content"
+                            android:text="Nerden Nereye :"
+                            android:id="@+id/textView10" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:id="@+id/txtNerdenNereye" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:textAlignment="textEnd"
+                            android:layout_height="wrap_content"
+                            android:text="Gidiş Tarihi :"
+                            android:id="@+id/textGidisTarihi3" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:id="@+id/txtGidisTarihi" />
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:textAlignment="textEnd"
+                            android:layout_height="wrap_content"
+                            android:text="Saat :"
+                            android:id="@+id/textUcusSaat" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:id="@+id/txtSaat" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:textAlignment="textEnd"
+                            android:layout_height="wrap_content"
+                            android:text="Fiyat :"
+                            android:id="@+id/textFiyat" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:id="@+id/txtUcakFiyat" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="italic"
+                            android:text="Dönüş Biletiniz"
+                            android:id="@+id/textVi2"
+                            android:textColor="#ffffff" />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:textAlignment="textEnd"
+                            android:layout_height="wrap_content"
+                            android:text="Nerden Nereye :"
+                            android:id="@+id/textNerdenNereye3" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:id="@+id/txtNerdenNereye3" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:textAlignment="textEnd"
+                            android:layout_height="wrap_content"
+                            android:text="Dönüş Tarihi :"
+                            android:id="@+id/textDonusTarihi" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:id="@+id/txtDonusTarihi" />
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:textAlignment="textEnd"
+                            android:layout_height="wrap_content"
+                            android:text="Saat :"
+                            android:id="@+id/textUcusSaat2" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:id="@+id/txtSaat2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:textAlignment="textEnd"
+                            android:layout_height="wrap_content"
+                            android:text="Fiyat :"
+                            android:id="@+id/textFiyat2" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/txtUcakFiyat2" />
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearOtel"
+            >
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#4FCDFA"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardElevation="5dp"
+                android:id="@+id/cardViewOtel"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp">
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="Otel Rezervasyonunuz"
+                        android:textColor="@android:color/background_light"
+                        android:id="@+id/textOtelBaslik"
+                        android:textStyle="italic"
+                        />
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:textAlignment="textEnd"
+                            android:layout_height="wrap_content"
+                            android:text="Otel Adı :"
+                            android:id="@+id/textOtelAdi2" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:id="@+id/txtOtelAdi2" />
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:text="Otel Kalitesi :"
+                            android:textAlignment="textEnd"
+                            android:id="@+id/textOtelKalitesi2" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:textSize="16sp"
+                            android:id="@+id/txtOtelKalitesi2" />
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:text="Check In Tarihi :"
+                            android:textAlignment="textEnd"
+                            android:id="@+id/textCheckInTarihi2" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:id="@+id/txtCheckInTarihi2" />
+                    </LinearLayout>
+                    <LinearLayout
+
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="textEnd"
+                            android:text="Check Out Tarihi :"
+                            android:id="@+id/textCheckOutTarihi2" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:id="@+id/txtCheckOutTarihi2" />
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:text="Toplam Fiyat :"
+                            android:textAlignment="textEnd"
+                            android:id="@+id/textToplamFiyat2" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/txtToplamFiyat2"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearArac"
+            >
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#4FCDFA"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardElevation="5dp"
+                android:id="@+id/cardViewArac"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    >
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="Araç Rezervasyonunuz"
+                        android:textColor="@android:color/background_light"
+                        android:id="@+id/textView50"
+                        android:textStyle="italic"
+                        />
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:textAlignment="textEnd"
+                            android:layout_height="wrap_content"
+                            android:text="Teslim Alma Yeri :"
+                            android:id="@+id/textView28" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:id="@+id/txtAracTeslimYeri" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:textAlignment="textEnd"
+                            android:layout_height="wrap_content"
+                            android:text="Teslim Etme Yeri :"
+                            android:id="@+id/textView30" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:id="@+id/txtAracTeslimEtme" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:textAlignment="textEnd"
+                            android:layout_height="wrap_content"
+                            android:text="Teslim Alma Tarihi :"
+                            android:id="@+id/textAracATarihi" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:id="@+id/txtAracATarihi" />
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:textAlignment="textEnd"
+                            android:layout_height="wrap_content"
+                            android:text="Teslim Etme Tarihi :"
+                            android:id="@+id/textAracTTarihi" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:id="@+id/txtAracTTarihi" />
+                    </LinearLayout>
+                    <LinearLayout
+
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:textAlignment="textEnd"
+                            android:layout_height="wrap_content"
+                            android:text="Araç Marka :"
+                            android:id="@+id/textAracMarka" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:id="@+id/txtAracMarka" />
+                    </LinearLayout>
+                    <LinearLayout
+
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:textAlignment="textEnd"
+                            android:layout_height="wrap_content"
+                            android:text="Arac Segment :"
+                            android:id="@+id/textAracSegment" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:id="@+id/txtAracSegment" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:textAlignment="textEnd"
+                            android:layout_height="wrap_content"
+                            android:text="Fiyat :"
+                            android:id="@+id/textAracFiyat" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/txtAracFiyat" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearButtons"
+            >
+
+
+
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_marginRight="10dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary"
+                        android:text="Onay"
+                        android:id="@+id/buttonOnay"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:background="@android:color/holo_red_dark"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="İptal"
+                        android:id="@+id/buttonIptal"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

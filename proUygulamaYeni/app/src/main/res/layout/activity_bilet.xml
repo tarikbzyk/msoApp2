@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.tarikbozyak.prouygulama.Bilet"
+    android:background="@drawable/back12">
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="15dp"
+
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Gidiş Bileti"
+            android:id="@+id/buttonGidisBileti"
+            android:background="@drawable/butonanasayfa"
+            android:onClick="Tiklendi2"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Dönüş Bileti"
+            android:id="@+id/buttonDonusBileti"
+            android:background="@drawable/butonanasayfa"
+            android:layout_marginTop="10dp"
+            android:onClick="Tiklendi2"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
